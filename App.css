@@ -1,0 +1,275 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;600;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+.App{
+  background-color:#F2F6FF;
+  margin:0;
+  
+}
+
+main{
+  width:900px;
+  margin:auto;
+}
+
+header{
+  padding: 1em 4.875em;
+  background-color: #fff;
+  box-shadow: 0 1px 3px lightgray;
+}
+nav{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
+.nav{
+  margin: -18px 0px -18px -24px;
+  display: flex;
+}
+ul{
+  list-style-type: none;
+  cursor: pointer;
+  text-align: left;
+}
+#logo{
+  width: 130px;
+  font-size: 32px;
+  color: #0084ff;
+  font-weight: 900;
+  margin-bottom: -5px;
+}
+
+#logo-text{
+  margin: 0px;
+  font-weight: 500;
+  font-family: Raleway,sans-serif;
+  font-style: italic;
+}
+#dropdown-text{
+  font-size: 16px;
+  color: #000;
+}
+.dropdown-icon{
+  padding: 0 8px;
+}
+#dropdown{
+  display: flex;
+  width: 232px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+button{
+  background: linear-gradient(269deg,#0048ff,#0096ff);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+} 
+#text{
+  min-width: 23em;
+  opacity: .6;
+  font-family: Raleway,sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: .4px;
+  text-align: left;
+  color: rgba(0,0,0,.6);
+  margin-top: 0.5em;
+  margin-left:230px;
+}
+
+#categories-container{
+  margin-bottom:20px;
+  font-size:16px;
+  padding-top:16px;
+}
+
+#heading{
+  width: fit-content;
+    margin: 0;
+    font-family: Raleway,sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: -.6px;
+    text-align: left;
+    color: #000;
+}
+
+.filter_text{
+  position:relative;
+  top:-7px;
+  display:inline-block;
+  font-size:16px;
+  font-weight:400;
+  margin-left:8px;
+}
+
+#filter-options{
+  margin-top: -24px;
+}
+
+
+#items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid {
+    width: calc(33% - 16px);
+    box-shadow: 0 0 10px #ccc;
+    margin: 8px;
+    background-color: white;
+}
+
+.image{
+  height: 176px;
+  width: 100%;
+  border-top-left-radius:5px;
+}
+
+#active-category{
+  color:#ffffff;
+  background-color:#0084ff;
+}
+
+.categories{
+  display: inline-block;
+  font-size: 0.75em;
+  padding:6px 16px;
+  width:auto;
+  color:#0084ff;
+  border-radius:15px;
+  border:1px solid #0084ff;
+  margin:5px;
+  Cursor: pointer;
+}
+
+.categories:hover{
+    color:white;
+    background-color:#0084ff;;
+}
+
+.heading{
+  font-size:2.25em;
+  color:#000;
+  font-weight:600;
+  margin:0;
+}
+
+#logo{
+  text-decoration:none;
+  font-family: Raleway,sans-serif;
+  font-weight:900;
+  width: 130px;
+  font-size:32px;
+  color: #0084ff;
+}
+
+.dropdown-text{
+  margin-left:60px;
+  position:relative;
+  text-decoration:none;
+  color:#000;
+}
+#dropdown-icon{   
+  padding-top: 0;
+  padding-left: 8px;
+}
+
+#categories-container{
+  margin-bottom:20px;
+  font-size:16px;
+  padding-top:16px;
+}
+.logo-text{
+  display:block;
+  position:relative;
+  bottom:9px;
+  text-decoration:none;
+  Font-style:italic;
+  margin:0;
+  color:#000000;
+  font-size:16px;
+  font-weight:500;
+  font-family:Raleway;
+}
+
+.text{
+   padding: 10px 24px;
+   background-color: white;
+}
+
+.name{
+  padding-top:4px;
+  color: #0096ff;
+  font-size: 14px;
+  font-style: Italic;
+  font-weight: 500;
+}
+
+.decription{
+  font-Size: 14px;
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.43;
+  color: rgba(0,0,0,.6);
+  margin: 4px 0;
+}
+
+.date{
+  color: rgba(0,0,0,0.7);
+  font-size: 14px;
+  font-weight: 300;
+} 
+
+footer{
+  background-color: #172146;
+  padding: 80px 16%;
+  margin-top: 30px;
+  text-align: center;
+  display: flex;
+}
+
+footer .footer-section{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  text-align: left;
+}
+.footer-section a{
+  color: white;
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+  font-weight: 300;
+  font-family: Roboto,sans-serif;
+  font-size: 13px;
+}
+.footer-section h3{
+  font-family: Roboto,sans-serif;
+  color:#8B90A3;
+  font-weight: 500;
+  font-size: 16px;
+  margin: 1rem 0;
+}
+.footer-section i{
+  font-size: 1.2rem;
+  color: white;
+  margin: 1rem 1rem 1rem 0;
+}
+
+
+.social-icon{
+  margin: 16px 20px 16px 0px;
+}
